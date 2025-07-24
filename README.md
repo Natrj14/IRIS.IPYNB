@@ -46,3 +46,39 @@ The model achieved an accuracy of 1.0 on the test set, indicating that it perfec
 How to Run the Notebook
 Upload the Iris.csv file to your Colab environment.
 Run each code cell sequentially.
+
+
+
+
+# Iris Species Classification using K-Nearest Neighbors (KNN)
+
+This project demonstrates the use of the **K-Nearest Neighbors (KNN)** algorithm to classify Iris species based on their sepal and petal measurements.
+
+## 📊 Dataset
+
+The dataset used is the **classic Iris dataset**, consisting of 150 samples of Iris flowers. Each sample includes the following features:
+
+- **SepalLengthCm**
+- **SepalWidthCm**
+- **PetalLengthCm**
+- **PetalWidthCm**
+
+Each sample belongs to one of the following species:
+- *Iris-setosa*
+- *Iris-versicolor*
+- *Iris-virginica*
+
+## 🧰 Dependencies
+
+Make sure the following libraries are installed:
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `scikit-learn`
+
+Install using pip if needed:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
+
